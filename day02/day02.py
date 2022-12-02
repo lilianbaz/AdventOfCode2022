@@ -17,9 +17,6 @@ def determineDefeat(opponentMove):
     elif opponentMove == "C":
         return "B"
 
-def determineDraw(opponentMove):
-    return opponentMove
-
 def scoreByMove(playerMove):
     return ord(playerMove) - 64
 
