@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-inputFile = open("input.txt", "r")
+inputFile = open("day01/input.txt", "r")
 inputLines = inputFile.readlines()
 
 elves = [0]
